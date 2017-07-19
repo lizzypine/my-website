@@ -1,0 +1,243 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background-color: #f1f5f6;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main{
+	height: 800px;
+	width: 1200px;
+	clear: both;
+	margin: 100px;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+#about{
+    height: 900px;
+    padding-left: 150px;
+}
+
+#work{
+	height:500px;
+}
+
+#skills{
+	height: 900px;
+}
+
+#contact{
+	height: 550px;
+	background-color: #89a568;
+	margin-left: 100px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin-left: 10px;
+
+}
+
+.half-width {
+    width: 400px;;;
+    float: center;
+    padding-left: 50px;
+    padding-right: 0px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.third-width {
+    width: 300px;
+    margin: 0px 10px 0px 60px;
+    overflow: auto;
+    float: left;
+    display: inline-block;
+}
+
+.background-image{
+	min-width: 40%
+	min-height: 40%;
+	padding-right: 1000px;
+	margin-right: 1000px;
+	padding-right: 1000px;
+	width: 830px;
+	padding-bottom: 500px;;;;
+}
+
+/****** NAV ******/
+#nav {
+	float: left;
+	margin: 100px 20px 20px 20px;
+	padding-left: 100px;
+	word-spacing: 10em;
+}
+#nav ul li{
+	display: inline-block;
+
+}
+
+#nav ul li a{
+	color: #032533;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+/****** HEADER ******/
+#header{
+	height: 700px;
+	padding-left: 60px;
+	padding-right: 10px;
+	margin-right: 100px;
+}
+
+#header h1{
+	font-family: 'Oswald';
+	font-size: 60px;	
+}
+
+#header h3{
+	font-family: 'Oswald';
+	font-size: 40px;
+	margin: 0px;
+}
+
+#header span{
+	color: #7db37a;
+}
+
+
+/****** ABOUT ******/
+#about h1{
+	font-family: 'Oswald';
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top:100px;
+	padding:0px;
+	text-align: center;
+}
+
+#about p{
+	font-family: 'Merriweather';
+	font-size: 25px;
+	text-align: justify;
+	line-height: 40px;
+}
+
+#about img{
+	max-width: 100%;
+	max-height: 60%;
+	padding-top: 28px;
+	padding-left: 5px;;
+}
+
+/****** SKILLS ******/
+#skills .full-width{
+	padding: 100px, 0px, 0px, 100px; 
+}
+
+#skills h1{
+	font-family: 'Oswald';
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top:100px;
+	padding:0px;
+	text-align: center;
+}
+
+#skills h2{
+	font-family: 'Merriweather';
+	font-size: 30px;
+	text-align: center;
+}
+
+#skills third-width{
+	padding-left: 30px;
+}
+
+#skills p{
+	font-family:'Merriweather';
+	font-size: 20px;
+	line-height: 40px;
+}
+
+/****** WORK ******/
+#work third-width{
+	padding-left: 30px;
+}
+
+#work h1{
+	font-family: 'Oswald';
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top:100px;
+	padding:0px;
+	text-align: center;
+}
+
+#work h2{
+	font-family: 'Merriweather';
+	font-size: 30px;
+	text-align: center;
+}
+
+#work p{
+	font-family:'Merriweather';
+	font-size: 20px;
+	line-height: 40px;
+}
+
+/****** CONTACT ******/
+/*#contact full-width{
+	border: 5px black;
+}
+*/
+#contact h1{
+	font-family: 'Oswald';
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top:100px;
+	padding:0px;
+	text-align: center;
+}
+
+#contact h2{
+	font-family: 'Merriweather';
+	font-size: 30px;
+	text-align: center;
+}
+
+#contact a{
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#envelope{
+	padding: 0 10px 0 425px;
+	margin: -10px;
+}
+
+#contact ul{
+	list-style-type: none;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#contact ul li{
+	display: inline-block;
+	padding-right: 60px;
+}
+
+
